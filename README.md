@@ -15,7 +15,12 @@ pip install numpy scikit-fuzzy matplotlib
 !pip install numpy scikit-fuzzy matplotlib
 
 # Save
+cd {traverse to your .py file}
 python3 -m venv .venv
 source .venv/bin/activate
 pip install numpy scikit-fuzzy matplotlib
+python3 main.py
+pip install networkx
+pip install scipy
+python3 main.py
 ```
