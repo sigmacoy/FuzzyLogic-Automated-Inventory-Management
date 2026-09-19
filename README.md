@@ -13,4 +13,9 @@ pip install numpy scikit-fuzzy matplotlib
 
 # If inside a Jupyter Notebook cell
 !pip install numpy scikit-fuzzy matplotlib
+
+# Save
+python3 -m venv .venv
+source .venv/bin/activate
+pip install numpy scikit-fuzzy matplotlib
 ```
